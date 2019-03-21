@@ -10,16 +10,24 @@ First step is to use [Ninite](https://ninite.com/) to install most of the softwa
 - [DDU](https://www.wagnardsoft.com/display-driver-uninstaller-ddu-) - Full uninstall of display drivers.
 - [DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) - Inspect the [Windows Driver Store](https://msdn.microsoft.com/en-us/library/ff544868(VS.85).aspx).
 - [DriverView](https://www.nirsoft.net/utils/driverview.html) - View drivers are that loaded on your system currently.
+- [Snappy Driver Installer](https://sdi-tool.org/) - Useful tool to install drivers. Not super easy to use, but it can get the job done.
 
 ### Bluescreen Tools
 - [BlueScreenView](https://www.nirsoft.net/utils/blue_screen_view.html) - If you have minidumps enabled on bluescreen then this is the tool you'll want to use.
 
+### Network Tools
+- [Wireshark](https://www.wireshark.org/) - Packet capture and network analyzer.
+- [TCPView](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview) - netstat but Windows.
+- [WinMTR](https://sourceforge.net/projects/winmtr/) - Network trace route monitoring. mtr but Windows.
+- [mitmproxy](https://mitmproxy.org/) - HTTP/HTTPS man in the middle proxy. Useful to debug app that use http/https.
+
 ### Others
 - [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) - Lets you modify programs and drivers that autorun on your system.
 - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) - Task Manager but better.
-- [TCPView](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview) - netstat but Windows.
-- [WinMTR](https://sourceforge.net/projects/winmtr/) - Network trace route monitoring. mtr but Windows.
 - [BleachBit](https://www.bleachbit.org/) - Open source replacement for CCleaner. Great for cleaning up logs and other cruft. Enable "Download and update cleaners from community" in the settings to support a ton more apps for cleaning.
+- [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html) - View the device tree for your USB hubs.
+- [HxD Hex Editor](https://mh-nexus.de/en/hxd/) - Windows hex editor.
+- [hashcat](https://hashcat.net/hashcat/) - Password cracking using GPUs.
 
 
 ## Dealing with Telemetry and OS Tweaks
@@ -38,18 +46,20 @@ First step is to use [Ninite](https://ninite.com/) to install most of the softwa
 ### Themes
 - [Penumbra 10](https://www.deviantart.com/scope10/art/Penumbra-10-Windows-10-visual-style-568740374) - Dark Windows 10 theme. Checkout Deviantart for more themes.
 - [ShadowFox](https://overdodactyl.github.io/ShadowFox/) - Firefox Dark Theme. Works by modifying the base Firefox files.
+- [Pressure For Steam](https://github.com/DirtDiglett/Pressure-for-Steam/tree/Steam-Client-Beta) - Steam dark theme.
 
 
 ## Benchmarks and Stress
 
 ### Stress testing
 - [Prime95](https://www.mersenne.org/download/) - CPU stress test.
-- [FurMark](https://geeks3d.com/furmark/) - GPU Stress Test. Take care if you use this, it will get your GPU hot!
+- [FurMark](https://geeks3d.com/furmark/) - GPU stress test. Take care if you use this, it will get your GPU hot!
 
 ### Benchmarks
 - [UserBenchmark](https://www.userbenchmark.com/) - Great free benchmark. I recommend anyone who is having PC issues to run this.
 - [3DMark](https://www.3dmark.com/) - NON-FREE. The standard for 3d benchmarks. You can usually get this cheap during a Steam sale.
 - [Unigine Superposition](https://benchmark.unigine.com/superposition) - Unigine's latest benchmark. While this is the latest, the older benchmarks are still great. Free version for basic tests, paid version for more in-depth tests.
+- [Final Fantasy XIV Benchmark](https://na.finalfantasyxiv.com/benchmark/) - FFXIV benchmark.
 
 ## Monitoring / Hardware Info
 - [CoreTemp](https://www.alcpu.com/CoreTemp/) - Monitor your CPU temps.
@@ -74,10 +84,11 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 - [Dark Hacker News](https://userstyles.org/styles/22794/a-dark-hacker-news) - Dark theme for Hacker News.
 - [Amazon - Dark Slate](https://userstyles.org/styles/133725/amazon-dark-slate) - Dark theme for Amazon. Has some issues but works alright.
 - [Dark LWN.net](https://userstyles.org/styles/164378/dark-lwn-net) - Dark theme for lwn.net.
-- [Dark Stylus](https://userstyles.org/styles/142272/dark-stylus) - Dark theme for stylus addon.
+- [Dark Stylus](https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github) - Dark theme for stylus addon.
 - [GitHub Dark](https://github.com/StylishThemes/GitHub-Dark) - Dark theme for GitHub.
 - [StackOverflow Dark](https://github.com/StylishThemes/StackOverflow-Dark) - Dark theme for StackOverflow.
 - [Wikipedia Dark](https://github.com/StylishThemes/Wikipedia-Dark) - Dark theme for Wikipedia.
+- [Twitter - Dark n Simple](https://userstyles.org/styles/128569/twitter-dark-n-simple) - Dark theme for Twitter.
 
 
 ## Misc
@@ -90,3 +101,8 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 
 ## Password Management
 Use anything that works for you as long as you use something!
+
+
+## Useful Links
+- [USB3.0/3.1 Drivers](https://www.win-raid.com/t834f25-USB-Drivers-original-and-modded.html) - This site provides USB3.0/3.1 drivers for most chipsets. Easy way to switch to the vendor drivers instead of the Microsoft provided ones.
+- [BSOD Analyst](https://carrona.org/dvrref.php) - Lots of useful info on this site for tracking down BSODs.
