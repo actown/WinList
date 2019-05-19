@@ -88,7 +88,7 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 - [Dark Hacker News](https://userstyles.org/styles/22794/a-dark-hacker-news) - Dark theme for Hacker News.
 - [Amazon - Dark Slate](https://userstyles.org/styles/133725/amazon-dark-slate) - Dark theme for Amazon. Has some issues but works alright.
 - [Dark LWN.net](https://userstyles.org/styles/164378/dark-lwn-net) - Dark theme for lwn.net.
-- [Dark Stylus](https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github) - Dark theme for stylus addon.
+- [Dark Stylus](https://github.com/overdodactyl/Stylus-Dark) - Dark theme for stylus addon.
 - [GitHub Dark](https://github.com/StylishThemes/GitHub-Dark) - Dark theme for GitHub.
 - [StackOverflow Dark](https://github.com/StylishThemes/StackOverflow-Dark) - Dark theme for StackOverflow.
 - [Wikipedia Dark](https://github.com/StylishThemes/Wikipedia-Dark) - Dark theme for Wikipedia.
