@@ -28,7 +28,9 @@ First step is to use [Ninite](https://ninite.com/) to install most of the softwa
 - [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html) - View the device tree for your USB hubs.
 - [HxD Hex Editor](https://mh-nexus.de/en/hxd/) - Windows hex editor.
 - [hashcat](https://hashcat.net/hashcat/) - Password cracking using GPUs.
-
+- [WinDirStat](https://windirstat.net/) - Disk usage statistics viewer.
+- [Chocolatey](https://chocolatey.org/) - Package manager for Windows
+- [TeraCopy](https://www.codesector.com/teracopy) - Replacement for file transferring (instead of Explorer).
 
 ## Dealing with Telemetry and OS Tweaks
 
@@ -82,12 +84,14 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 - [Stylus](https://add0n.com/stylus.html) - Enables website theming.
 - [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin) - Web/Ad Blocking.
 - [Violentmonkey](https://violentmonkey.github.io/) - Userscript support.
+- [Privacy Badger](https://www.eff.org/privacybadger/) - Blocks website trackers.
+- [The Great Suspender](https://github.com/deanoemcke/thegreatsuspender) - (Chrome) Automatic tab suspension to free up memory.
 
 ### Stylus Themes
 - [Dark Hacker News](https://userstyles.org/styles/22794/a-dark-hacker-news) - Dark theme for Hacker News.
 - [Amazon - Dark Slate](https://userstyles.org/styles/133725/amazon-dark-slate) - Dark theme for Amazon. Has some issues but works alright.
 - [Dark LWN.net](https://userstyles.org/styles/164378/dark-lwn-net) - Dark theme for lwn.net.
-- [Dark Stylus](https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github) - Dark theme for stylus addon.
+- [Dark Stylus](https://github.com/overdodactyl/Stylus-Dark) - Dark theme for stylus addon.
 - [GitHub Dark](https://github.com/StylishThemes/GitHub-Dark) - Dark theme for GitHub.
 - [StackOverflow Dark](https://github.com/StylishThemes/StackOverflow-Dark) - Dark theme for StackOverflow.
 - [Wikipedia Dark](https://github.com/StylishThemes/Wikipedia-Dark) - Dark theme for Wikipedia.
@@ -101,6 +105,7 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 - [Speedcrunch](https://speedcrunch.org/) - Calculator replacement.
 - [ImageGlass](https://imageglass.org/) - Photo viewer replacement.
 - [OBS Studio](https://obsproject.com/) - Streaming and/or screen recording.
+- [Color Sustainer](https://www.guru3d.com/files_details/color_sustainer_download.html) - Forces ICC (color profiles) against certain (or all) display modes.
 
 
 ## Password Management
