@@ -101,7 +101,7 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 ## Misc
 - [HashTab](http://implbits.com/products/hashtab/) - FREE for PERSONAL USE. Easy file hashsum checking in Windows.
 - [Rufus](https://rufus.ie/) - Easy bootable USB creator tool.
-- [Switch Hitter](https://www.elitekeyboards.com/switchhitter.php) - Keyboard switch tester.
+- [Switch Hitter](https://web.archive.org/web/20190413233743/https://elitekeyboards.com/switchhitter.php) - Keyboard switch tester. Elite Keyboards has gone away, this is a link to the web archive of the site. There's a similar web based tool, [QMK Configurator](https://config.qmk.fm/#/test/).
 - [Speedcrunch](https://speedcrunch.org/) - Calculator replacement.
 - [ImageGlass](https://imageglass.org/) - Photo viewer replacement.
 - [OBS Studio](https://obsproject.com/) - Streaming and/or screen recording.
