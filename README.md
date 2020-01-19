@@ -1,5 +1,5 @@
 # Windows Software
-Over the years I've found a number of useful Windows tools and software. Here's my attempt to write them down. If you have any tools/software that you recommend, please make a Pull Request and I will merge it! Try to keep all the software Open Source unless there isn't an equal alternative.
+Over the years I've found a number of useful Windows tools and software. Here's my attempt to write them down. If you have any tools/software that you recommend, please make a Pull Request and I will merge it! Try to keep all the software Open Source or free unless there isn't an equal alternative.
 
 First step is to use [Ninite](https://ninite.com/) to install most of the software you need. None of the software on the list is provided via Ninite.
 
@@ -35,9 +35,12 @@ First step is to use [Ninite](https://ninite.com/) to install most of the softwa
 ### Windows
 - [ShutUp10](https://www.oo-software.com/en/shutup10) - Disable a lot of Windows "features".
 - [Autofixer](https://utilitybox.org/autofixer) - One click to disable Windows features.
+- [Ultimate Windows Tweaker](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10) - Modify a lot of hidden Windows settings.
+- [Winaero Tweaker](https://winaero.com/download.php?view.1796) - Modify more Windows settings.
+- [Windows Privacy Dashboard](https://wpd.app/) - Manage privacy settings in Windows.
 
 ### Nvidia
-- [Disable-Nvidia-Telemetry](https://github.com/Sleepydragn1/Disable-Nvidia-Telemetry) - Disable the Nvidia Telemetry.
+- [Disable-Nvidia-Telemetry](https://github.com/Sleepydragn1/Disable-Nvidia-Telemetry) - Disable the Nvidia Telemetry. (Outdated)
 
 ### Theme Support
 - [UltraUXThemePatcher](https://www.syssel.net/hoefs/software_uxtheme.php?lang=en) - Required for custom Windows themes.
@@ -95,8 +98,9 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 - [HashTab](http://implbits.com/products/hashtab/) - FREE for PERSONAL USE. Easy file hashsum checking in Windows.
 - [Rufus](https://rufus.ie/) - Easy bootable USB creator tool.
 - [Switch Hitter](https://www.elitekeyboards.com/switchhitter.php) - Keyboard switch tester.
-- [Speedcrunch](https://speedcrunch.org/) - Calc replacement.
+- [Speedcrunch](https://speedcrunch.org/) - Calculator replacement.
 - [ImageGlass](https://imageglass.org/) - Photo viewer replacement.
+- [OBS Studio](https://obsproject.com/) - Streaming and/or screen recording.
 
 
 ## Password Management
@@ -106,3 +110,4 @@ Use anything that works for you as long as you use something!
 ## Useful Links
 - [USB3.0/3.1 Drivers](https://www.win-raid.com/t834f25-USB-Drivers-original-and-modded.html) - This site provides USB3.0/3.1 drivers for most chipsets. Easy way to switch to the vendor drivers instead of the Microsoft provided ones.
 - [BSOD Analyst](https://carrona.org/dvrref.php) - Lots of useful info on this site for tracking down BSODs.
+- [NirSoft](https://www.nirsoft.net/) - Tons of random useful tools.
