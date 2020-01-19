@@ -112,6 +112,14 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 Use anything that works for you as long as you use something!
 
 
+## Twitch.tv
+There's a few awesome tools to watch and chat with Twitch.tv without using a browser or the Twitch provided client
+
+- [Streamlink](https://streamlink.github.io/) - This is the main tool that pulls stream links out of pages and sends it to VLC or another video player.
+- [Streamlink Twitch GUI](https://streamlink.github.io/streamlink-twitch-gui/) - This is the Twitch browser that uses both Streamlink and Chatty to fill in the twitch experience.
+- [Chatty](https://chatty.github.io/) - Twitch chat replacement. Supports FFZ, BTTV, and will use your login from Streamlink Twitch GUI so you'll be able to chat without much extra work. I recommend changing the theme of this app, you'll need to change both the window style and the chat style.
+
+
 ## Useful Links
 - [USB3.0/3.1 Drivers](https://www.win-raid.com/t834f25-USB-Drivers-original-and-modded.html) - This site provides USB3.0/3.1 drivers for most chipsets. Easy way to switch to the vendor drivers instead of the Microsoft provided ones.
 - [BSOD Analyst](https://carrona.org/dvrref.php) - Lots of useful info on this site for tracking down BSODs.
