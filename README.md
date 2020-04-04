@@ -10,7 +10,6 @@ First step is to use [Ninite](https://ninite.com/) to install most of the softwa
 - [DDU](https://www.wagnardsoft.com/display-driver-uninstaller-ddu-) - Full uninstall of display drivers.
 - [DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) - Inspect the [Windows Driver Store](https://msdn.microsoft.com/en-us/library/ff544868(VS.85).aspx).
 - [DriverView](https://www.nirsoft.net/utils/driverview.html) - View drivers are that loaded on your system currently.
-- [Snappy Driver Installer](https://sdi-tool.org/) - Useful tool to install drivers. Not super easy to use, but it can get the job done.
 
 ### Bluescreen Tools
 - [BlueScreenView](https://www.nirsoft.net/utils/blue_screen_view.html) - If you have minidumps enabled on bluescreen then this is the tool you'll want to use.
@@ -96,7 +95,8 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 - [StackOverflow Dark](https://github.com/StylishThemes/StackOverflow-Dark) - Dark theme for StackOverflow.
 - [Wikipedia Dark](https://github.com/StylishThemes/Wikipedia-Dark) - Dark theme for Wikipedia.
 - [Twitter - Dark n Simple](https://userstyles.org/styles/128569/twitter-dark-n-simple) - Dark theme for Twitter.
-
+- [Google - Clean Dark](https://userstyles.org/styles/144028/google-clean-dark) - Dark theme for Google.
+- [YouTube - Better Full Dark Theme 2019 (ARC)](https://userstyles.org/styles/123887/youtube-better-full-dark-theme-2019-arc) - Dark theme for YouTube.
 
 ## Misc
 - [HashTab](http://implbits.com/products/hashtab/) - FREE for PERSONAL USE. Easy file hashsum checking in Windows.
