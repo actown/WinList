@@ -99,7 +99,7 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 - [YouTube - Better Full Dark Theme 2019 (ARC)](https://userstyles.org/styles/123887/youtube-better-full-dark-theme-2019-arc) - Dark theme for YouTube.
 
 ## Misc
-- [HashTab](http://implbits.com/products/hashtab/) - FREE for PERSONAL USE. Easy file hashsum checking in Windows.
+- [OpenHashTab](https://github.com/namazso/OpenHashTab) - Easy file hashsum checking in Windows.
 - [Rufus](https://rufus.ie/) - Easy bootable USB creator tool.
 - [Switch Hitter](https://web.archive.org/web/20190413233743/https://elitekeyboards.com/switchhitter.php) - Keyboard switch tester. Elite Keyboards has gone away, this is a link to the web archive of the site. There's a similar web based tool, [QMK Configurator](https://config.qmk.fm/#/test/).
 - [Speedcrunch](https://speedcrunch.org/) - Calculator replacement.
