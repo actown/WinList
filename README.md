@@ -1,9 +1,6 @@
 # Windows Software
 Over the years I've found a number of useful Windows tools and software. Here's my attempt to write them down. If you have any tools/software that you recommend, please make a Pull Request and I will merge it! Try to keep all the software Open Source or free unless there isn't an equal alternative.
 
-First step is to use [Ninite](https://ninite.com/) to install most of the software you need. None of the software on the list is provided via Ninite.
-
-
 ## Tools
 
 ### Dealing with Drivers
@@ -29,29 +26,12 @@ First step is to use [Ninite](https://ninite.com/) to install most of the softwa
 - [hashcat](https://hashcat.net/hashcat/) - Password cracking using GPUs.
 - [WinDirStat](https://windirstat.net/) - Disk usage statistics viewer.
 - [Chocolatey](https://chocolatey.org/) - Package manager for Windows
-- [TeraCopy](https://www.codesector.com/teracopy) - Replacement for file transferring (instead of Explorer).
 
 ## Dealing with Telemetry and OS Tweaks
 
 ### Windows
-- [ShutUp10](https://www.oo-software.com/en/shutup10) - Disable a lot of Windows "features".
-- [Autofixer](https://utilitybox.org/autofixer) - One click to disable Windows features.
-- [Ultimate Windows Tweaker](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10) - Modify a lot of hidden Windows settings.
 - [Winaero Tweaker](https://winaero.com/download.php?view.1796) - Modify more Windows settings.
 - [Windows Privacy Dashboard](https://wpd.app/) - Manage privacy settings in Windows.
-
-### Nvidia
-- [Disable-Nvidia-Telemetry](https://github.com/Sleepydragn1/Disable-Nvidia-Telemetry) - Disable the Nvidia Telemetry. (Outdated)
-
-### Theme Support
-- [UltraUXThemePatcher](https://www.syssel.net/hoefs/software_uxtheme.php?lang=en) - Required for custom Windows themes.
-- [OldNewExplorer](https://msfn.org/board/topic/170375-oldnewexplorer-118/) - Some changes for Explorer. Handy for themes.
-
-### Themes
-- [Penumbra 10](https://www.deviantart.com/scope10/art/Penumbra-10-Windows-10-visual-style-568740374) - Dark Windows 10 theme. Checkout Deviantart for more themes.
-- [ShadowFox](https://overdodactyl.github.io/ShadowFox/) - Firefox Dark Theme. Works by modifying the base Firefox files.
-- [Pressure For Steam](https://github.com/DirtDiglett/Pressure-for-Steam/tree/Steam-Client-Beta) - Steam dark theme.
-
 
 ## Benchmarks and Stress
 
@@ -67,7 +47,6 @@ First step is to use [Ninite](https://ninite.com/) to install most of the softwa
 
 ## Monitoring / Hardware Info
 - [CoreTemp](https://www.alcpu.com/CoreTemp/) - Monitor your CPU temps.
-- [HWMonitor](https://cpuid.com/softwares/hwmonitor.html) - Overall great hardware monitor.
 - [HWiNFO](https://www.hwinfo.com/) - Sensors and hardware info all in one.
 - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) - CPU focused hardware info, but it does cover all hardware types.
 - [GPU-Z](https://www.techpowerup.com/gpuz/) - GPU focused hardware info.
@@ -94,7 +73,6 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 - [GitHub Dark](https://github.com/StylishThemes/GitHub-Dark) - Dark theme for GitHub.
 - [StackOverflow Dark](https://github.com/StylishThemes/StackOverflow-Dark) - Dark theme for StackOverflow.
 - [Wikipedia Dark](https://github.com/StylishThemes/Wikipedia-Dark) - Dark theme for Wikipedia.
-- [Twitter - Dark n Simple](https://userstyles.org/styles/128569/twitter-dark-n-simple) - Dark theme for Twitter.
 - [Google - Clean Dark](https://userstyles.org/styles/144028/google-clean-dark) - Dark theme for Google.
 - [YouTube - Better Full Dark Theme 2019 (ARC)](https://userstyles.org/styles/123887/youtube-better-full-dark-theme-2019-arc) - Dark theme for YouTube.
 
@@ -107,20 +85,28 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 - [OBS Studio](https://obsproject.com/) - Streaming and/or screen recording.
 - [Color Sustainer](https://www.guru3d.com/files_details/color_sustainer_download.html) - Forces ICC (color profiles) against certain (or all) display modes.
 
-
 ## Password Management
 Use anything that works for you as long as you use something!
-
-
-## Twitch.tv
-There's a few awesome tools to watch and chat with Twitch.tv without using a browser or the Twitch provided client
-
-- [Streamlink](https://streamlink.github.io/) - This is the main tool that pulls stream links out of pages and sends it to VLC or another video player.
-- [Streamlink Twitch GUI](https://streamlink.github.io/streamlink-twitch-gui/) - This is the Twitch browser that uses both Streamlink and Chatty to fill in the twitch experience.
-- [Chatty](https://chatty.github.io/) - Twitch chat replacement. Supports FFZ, BTTV, and will use your login from Streamlink Twitch GUI so you'll be able to chat without much extra work. I recommend changing the theme of this app, you'll need to change both the window style and the chat style.
-
 
 ## Useful Links
 - [USB3.0/3.1 Drivers](https://www.win-raid.com/t834f25-USB-Drivers-original-and-modded.html) - This site provides USB3.0/3.1 drivers for most chipsets. Easy way to switch to the vendor drivers instead of the Microsoft provided ones.
 - [BSOD Analyst](https://carrona.org/dvrref.php) - Lots of useful info on this site for tracking down BSODs.
 - [NirSoft](https://www.nirsoft.net/) - Tons of random useful tools.
+
+# Chocolatey
+Here's some easy choco install lines to get my recommended software.
+
+## End user
+```
+choco install bleachbit hwinfo imageglass obs-studio openhashtab sysinternals rapr wpd 7zip greenshot speedcrunch notepadplusplus windirstat paint.net vlc
+```
+
+## Dev tools
+```
+choco install cutter golang git nodejs microsoft-windows-terminal python3 rufus winmtr-redux mitmproxy wireshark
+```
+
+## Upgrading
+```
+choco upgrade all
+```
