@@ -63,7 +63,6 @@ Some of these have Chrome equivalents or in some cases, they link to a website w
 - [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin) - Web/Ad Blocking.
 - [Violentmonkey](https://violentmonkey.github.io/) - Userscript support.
 - [Privacy Badger](https://www.eff.org/privacybadger/) - Blocks website trackers.
-- [The Great Suspender](https://github.com/deanoemcke/thegreatsuspender) - (Chrome) Automatic tab suspension to free up memory.
 
 ### Stylus Themes
 - [Dark Hacker News](https://userstyles.org/styles/22794/a-dark-hacker-news) - Dark theme for Hacker News.
